@@ -38,44 +38,52 @@
       <p>本音でおすすめする 身も心も満たされるセクシャルライフ情報</p>
     </div>
     <ul class="header-menu__items">
+      <li><a href=""><img src="wp-content/themes/femederu/assets/img/icon_search.svg" alt=""></a></li>
       <li><a href="">femederuとは？</a></li>
       <li><a href="">ログイン</a></li>
       <li><a href="" class="btn">会員登録</a></li>
     </ul>
   </nav>
-  <div class="container text-center">
-    <form method="get" id="searchform" action="http://localhost:8000">
-      <input type="text" name="s" id="s" placeholder="お悩み　グッズ名で検索" />
-      <button type="submit">検索する</button>
-    </form>
-    <nav id="main-menu">
-      <ul>
-        <li class="active">
-          <img src="wp-content/themes/femederu/assets/img/icon_home.svg" alt="" class="main-menu__icon">TOP
-        </li>
-        <li>
-          <img src="wp-content/themes/femederu/assets/img/icon_calendar.svg" alt="" class="main-menu__icon">イベント
-        </li>
-        <li>
-          <img src="wp-content/themes/femederu/assets/img/icon_goods.svg" alt="" class="main-menu__icon">商品
-        </li>
-        <li>
-          <img src="wp-content/themes/femederu/assets/img/icon_column.svg" alt="" class="main-menu__icon">コラム
-        </li>
-        <li>
-          <img src="wp-content/themes/femederu/assets/img/icon_counseling.svg" alt="" class="main-menu__icon">お悩み相談
-        </li>
-        <li>
-          <img src="wp-content/themes/femederu/assets/img/icon_like.svg" alt="" class="main-menu__icon">お気に入り
-        </li>
-      </ul>
-    </nav>
-  </div>
 </header>
-
 <body>
   <main id="index">
-    <div class="slider">
+    <div class="container text-center">
+  <form method="get" id="searchform" action="http://localhost:8000">
+    <input type="text" name="s" id="s" placeholder="お悩み　グッズ名で検索" />
+    <button type="submit">検索する</button>
+  </form>
+  <nav id="main-menu">
+    <ul>              <li class="active">
+          <img src="wp-content/themes/femederu/assets/img/icon_home.svg" alt="" class="main-menu__icon">TOP
+        </li>
+            <li>
+        <a href="">
+          <img src="wp-content/themes/femederu/assets/img/icon_calendar.svg" alt="" class="main-menu__icon">イベント
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="wp-content/themes/femederu/assets/img/icon_goods.svg" alt="" class="main-menu__icon">商品
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="wp-content/themes/femederu/assets/img/icon_column.svg" alt="" class="main-menu__icon">コラム
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="wp-content/themes/femederu/assets/img/icon_counseling.svg" alt="" class="main-menu__icon">お悩み相談
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="wp-content/themes/femederu/assets/img/icon_like.svg" alt="" class="main-menu__icon">お気に入り
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>    <div class="slider">
       <div><img src="https://placehold.jp/600x300.png" alt="" /></div>
       <div><img src="https://placehold.jp/3d4070/ffffff/600x300.png" alt="" /></div>
       <div><img src="https://placehold.jp/600x300.png" alt="" /></div>
@@ -262,6 +270,7 @@
             <img src="https://placehold.jp/300x200.png" alt="" class="item__thumb">
             <div class="item__cat">
               <span>グッズ評価</span>
+              <span class="cat-status__pr">PR</span>
             </div>
             <h3 class="item__title">
               性交痛女子が選ぶ膣トレーニングに最適グッズ3選
@@ -384,19 +393,27 @@
     </section>
   </main>
   <footer>
-    <div class="d-flex align-items-center">
-      <h1><img src="wp-content/themes/femederu/assets/img/logo_femederu.svg" alt="femederuロゴ"></h1>
-      <nav id="footer-menu">
-        <ul>
-          <li><a href="">お問い合わせ</a></li>
-          <li><a href="">コンテンツ制作ポリシー</a></li>
-          <li><a href="">プライバシーポリシー</a></li>
-          <li><a href="">運営会社</a></li>
-        </ul>
-      </nav>
-    </div>
-    <a href="" class="btn"><img src="" alt="">セックスのお悩み投稿募集中</a>
-  </footer>
-</body>
+  <div class="d-flex align-items-center">
+    <h1><img src="wp-content/themes/femederu/assets/img/logo_femederu.svg" alt="femederuロゴ"></h1>
+    <nav id="footer-menu">
+      <ul>
+        <li><a href="">お問い合わせ</a></li>
+        <li><a href="">コンテンツ制作ポリシー</a></li>
+        <li><a href="">プライバシーポリシー</a></li>
+        <li><a href="">運営会社</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="d-flex align-items-center">
+    <nav>
+      <ul id="sns-menu">
+        <li><img src="wp-content/themes/femederu/assets/img/icon_sns_x.svg" alt="Xアイコン"></li>
+        <li><img src="wp-content/themes/femederu/assets/img/icon_sns_facebook.svg" alt="Facebookアイコン"></li>
+        <li><img src="wp-content/themes/femederu/assets/img/icon_sns_line.svg" alt="Lineアイコン"></li>
+      </ul>
+    </nav>
+    <a href="" class="btn"><img src="wp-content/themes/femederu/assets/img/icon_pen.svg" alt="ペンアイコン">お悩み投稿募集中</a>
+  </div>
+</footer></body>
 
 </html>
